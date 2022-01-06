@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.focused-area{
+display: flex;
+padding: 30px;
+}
+.focused{
+    width: 80%;
+
+}
+.half-focused{
+    width: 50%;
+    padding: 70px;
+}
+span{
+    color: tomato;
+}
+h1{
+    font-size: 50px;
+}
+
+.border{
+    border-left: 5px solid tomato;
+}
+
+a{
+    color: white;
+    background-image: linear-gradient(tomato, salmon);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.align{
+    text-align: center;
+}
+/*section 2 */
+.section-card-area{
+    display: flex;
+    padding: 70px;
+}
+.card{
+    width: 30%;
+}
+.card-area{
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 250px;
+}
+#mission{
+    background-color: rgb(235, 211, 243);
+}
+#vission{
+    background-color: rgb(194, 187, 231);
+}
+#goals{
+    background-color: rgb(216, 196, 238);
+}
+
+.coding-img{
+    width: 60%;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
